@@ -6,4 +6,5 @@ In this file I have mentioned the various steps (from basics for this project)
 3. Run $sudo apt-get update, $sudo apt-get upgrade
 4. Install ROS by following these links: (https://roboticsbackend.com/install-ros-on-raspberry-pi-3/ , http://wiki.ros.org/noetic/Installation/Ubuntu)
 5. If you want to add additional ROS packages use ($sudo apt install ros-noetic-PACKAGE_NAME)
-6. Build catkin workspace and install dependencies (https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_ros.md, http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
+6. Build catkin workspace and install dependencies mavlink mavros ( mavlink mavros: https://github.com/mavlink/mavros/blob/master/mavros/README.md#installation , catkin: https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_ros.md, http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
+https://gist.github.com/dbaldwin/4695149740e59a9d998f4e95fbe1d298
