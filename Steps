@@ -5,4 +5,5 @@ In this file I have mentioned the various steps (from basics for this project)
    You can check if you are succesful by running ($ ping google.com)
 3. Run $sudo apt-get update, $sudo apt-get upgrade
 4. Install ROS by following these links: (https://roboticsbackend.com/install-ros-on-raspberry-pi-3/ , http://wiki.ros.org/noetic/Installation/Ubuntu)
-5. 
+5. If you want to add additional ROS packages use ($sudo apt install ros-noetic-PACKAGE_NAME)
+6.
