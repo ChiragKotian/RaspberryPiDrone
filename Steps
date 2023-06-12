@@ -10,3 +10,11 @@ In this file I have mentioned the various steps (from basics for this project)
 https://gist.github.com/dbaldwin/4695149740e59a9d998f4e95fbe1d298
 7. CTU MRS git hub: https://ctu-mrs.github.io/
 https://www.hackster.io/korigod/programming-drones-with-raspberry-pi-on-board-easily-b2190e
+
+
+
+
+https://www.raspberrypi.com/documentation/computers/configuration.html
+https://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html
+https://ardupilot.org/mavproxy/docs/getting_started/download_and_installation.html#mavproxy-downloadinstalllinux
+run where mavproxy is there
