@@ -18,3 +18,4 @@ https://www.raspberrypi.com/documentation/computers/configuration.html
 https://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html
 https://ardupilot.org/mavproxy/docs/getting_started/download_and_installation.html#mavproxy-downloadinstalllinux
 run where mavproxy is there
+/dev/ttyAMC check in dev folder which new file is formed on connecting pixhawk
