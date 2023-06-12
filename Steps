@@ -1,4 +1,4 @@
-In this file I have mentioned the various steps (from basics for this project)
+*In this file I have mentioned the various steps (from basics for this project)
 
 1. Install ubuntu server 20.04.5 LTS on raspberry pi using raspberry pi imager.
 2. Connect raspberry pi to your local network with internet connection (https://linuxconfig.org/ubuntu-20-04-connect-to-wifi-from-command-line)
@@ -9,7 +9,7 @@ In this file I have mentioned the various steps (from basics for this project)
 6. Build catkin workspace and install dependencies mavlink mavros ( mavlink mavros: https://github.com/mavlink/mavros/blob/master/mavros/README.md#installation , catkin: https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_ros.md, http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
 https://gist.github.com/dbaldwin/4695149740e59a9d998f4e95fbe1d298
 7. CTU MRS git hub: https://ctu-mrs.github.io/
-https://www.hackster.io/korigod/programming-drones-with-raspberry-pi-on-board-easily-b2190e
+https://www.hackster.io/korigod/programming-drones-with-raspberry-pi-on-board-easily-b2190e*
 
 
 
@@ -19,3 +19,6 @@ https://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html
 https://ardupilot.org/mavproxy/docs/getting_started/download_and_installation.html#mavproxy-downloadinstalllinux
 run where mavproxy is there
 /dev/ttyAMC check in dev folder which new file is formed on connecting pixhawk
+https://www.youtube.com/watch?v=DGAB34fJQFc
+https://www.hackster.io/dmitrywat/ros-melodic-on-raspberry-pi-4-debian-buster-rplidar-a1m8-0d63d1
+
