@@ -97,5 +97,6 @@ copy paste text: enter visual mode, select text, press y(yank) to copy, press p 
 typing  :set xxx sets the option xxx. some options are ic/ignorecase  ignores upper/lower case when searching ; is/incsearch shoes partial matches ; hls/hlssearch highlights matches
 if want to ignore case for just one search command, use \c i.e. /ignore\c
 prepend no to switch an option off:  :set noic
-type :help or press F1 or HELP to open a help window; type :help cmd to find help on cmd; type ctrl-W to jump to another window
-
+type :help or press F1 or HELP to open a help window; type :help cmd to find help on cmd; type ctrl-W ctrl-W to jump to another window; :q to close the help window
+can create vimrc startup script to keep your preferred settings
+when typing a : command, press CTRL-D to see possible completions ; press tab to use one completion
