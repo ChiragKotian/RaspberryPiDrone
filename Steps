@@ -58,7 +58,7 @@ Vim:
 use $ vimtutor    to get basic commands
 (see bottom to know the mode you are in)
 h(left) j(down) k(up) l(right) or use arrow keys to navigate
-:q!  exit without saving
+```:q!```  exit without saving
 x delete text
 esc normal mode
 i insert text mode behind
