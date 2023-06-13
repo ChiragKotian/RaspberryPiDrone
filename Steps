@@ -27,5 +27,75 @@ use https://sourceforge.net/projects/geographiclib/files/magnetic-distrib/ for g
 download tar --no-check-certificate, extract, copy and paste to usr/share/GeographicLib
 cp -R ./magnetic /usr/share.GeographicLib 
 if gui opens up try ctrl +alt + F3 for text mode(terminal)
-ctrl + alt + F2 for gui
+ctrl + alt + F2 for GUI
+https://github.com/tmux/tmux
+https://ctu-mrs.github.io/docs/introduction/suggested_reading.html
+https://github.com/tmuxinator/tmuxinator
+tmux:
+here and means leave prev keys
+new session start: tmux
+hierarchy:  session>>windows>>panes
+new pane:
+to the right :ctrl + b and %(shift+5)
+to the bottom : ctrl + b and "(shift + ')
+make as many as you want
+switch panes: ctrl + b + left/right arror
+new window:
+ctrl +b and c  
+change windows:
+ctrl + b and 0/1/2... as on the green banner below
+rename window: ctrl + b and , then type name (see yellow box below) and hit enter
+detach from  a session: ctrl + b and d    if using ssh then no need to worry you can continue from where you left
+view running tmux sessions : tmux ls
+attach to the session: tmux attach -t name_of_session_eg_0
+rename session: tmux rename-session -t current_name_of_session name_you_want
+new session with name: tmux new -s name_you_want
+kill session: tmux kill-session -t name_of_session
+sessions runs in background unless closed or system reboot 
+
+Vim:
+
+use $ vimtutor    to get basic commands
+(see bottom to know the mode you are in)
+h(left) j(down) k(up) l(right) or use arrow keys to navigate
+:q!  exit without saving
+x delete text
+esc normal mode
+i insert text mode behind
+a append text mode ahead (same as i just direction of text adding changes)
+vim file_name :to open a file for editing, if no file then creates new file
+:wq to save and exit
+go to starting word of the word to be removed and type dw to delete it
+type d$ at the start of character from which you wish to delete everything (trailing characters get deleted)
+d<-operator w/$/e<-motion(tells what to operate on) : w- until start of next word excluding its first character, e- end of current word including last character, $ to the end of line including the last character,d whole line
+typing a number before motion repeats it that many times (d2w delete two two words,2w move two words forward, 3e move 3words forward but at last letter of 3rd word, 0 to get to start of word)
+dd delets the whole line
+u to undo last command, U to bring whole line to original form
+ctrl+R to undo the undo's
+to put back text that has just been deleted, type p. this puts the deleted text after the cursor(if a line was deleted (dd)(only one line in vim register)it will go on the line below the cursor)
+to replace the character under the cursor, type r and then the character you want to have there
+the change operator allows you to change from the cursor to where the motion takes you. eg. type ce to change from the cursor to the end of the word, c$ to change to the end of a line
+the format for change is: c [number] motion 
+ctrl+G shows current file location and it's status
+G moves to end of file, gg moves to first line, [line number]+G to move to that line
+to find phrases: / followed by phrase searches forward for the phrase ? followed by phrase searches backward, n to find next occurrence in same directionand N prev occurrence, 
+ctrl+O takes to older position of yours in file and crtl+I newer
+typing % while the cursor is on a (,);[,];{,} goes to it's macth used for debugging missing brackets
+substitute:  new in place of first old in the line:  :s/old/new , new for all old in the line:  :s/old/new/g , new in place of old between two lines for no. # and # #,#s/old/new/g , new in place of old in whole file :%s/old/new/g  to ask for confirmation while doing this :%s/old/new/gc
+for running external commands:  : !command   eg. : !ls  lists files in current directory
+:w file_name writes the current Vim file to disk with name file_name
+pressing v enter into selection mode
+v motion :w file_name saves the visually selected lines in the file file_name    in motion here you have to move your cursor to select the text you want
+v motion d   deletes the selected text where d is the operator, you can use operator of your choice
+:r file_name retrieves disk file file_name and puts it below the current position , you can also use external commands in place of file_name like :r !ls and it puts that commands output below the current cursor position
+a,i,A all go to the same insert mode
+type o to open a line below O to open a line above cursor and enter insert mode
+type a to insert text after the cursor and A to insert text after the end of the line
+e command moves to the end of a word
+type capital R to start replacing characters untill esc pressed
+copy paste text: enter visual mode, select text, press y(yank) to copy, press p to paste, yw to copy one word
+typing  :set xxx sets the option xxx. some options are ic/ignorecase  ignores upper/lower case when searching ; is/incsearch shoes partial matches ; hls/hlssearch highlights matches
+if want to ignore case for just one search command, use \c i.e. /ignore\c
+prepend no to switch an option off:  :set noic
+type :help or press F1 or HELP to open a help window; type :help cmd to find help on cmd; type ctrl-W to jump to another window
 
