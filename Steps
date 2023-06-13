@@ -25,4 +25,6 @@ use ros.txt in this repo for ros.asc
 use https://sourceforge.net/projects/geographiclib/files/magnetic-distrib/ for geographic lib error files
 download tar --no-check-certificate, extract, copy and paste to usr/share/GeographicLib
 cp -R ./magnetic /usr/share.GeographicLib 
+if gui opens up try ctrl +alt + F1/F2/...F6 for text mode
+ctrl + alt + F7 for gui
 
