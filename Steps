@@ -189,8 +189,8 @@ launch:
 	<node pkg="offboard_py" type="offb_node.py" name="offb_node_py" required="true" output="screen" />
 </launch>
 roslaunch offboard_py start_offb.launch
-
+or in dir where script is there type $python3 scriptname.py
 
 mavlink and mavros is in :  /opt/ros/noetic/share
 
-
+https://docs.px4.io/main/en/peripherals/serial_configuration.html
