@@ -207,3 +207,8 @@ for ssh to it can be ssh pi@raspberrypi or ssh pi@192.128.1.254 something like t
 
 /mavros/imu/data: angular vel, linear vel, orientation
 /mavros/imu/data_raw:  angular vel, linear vel
+
+start rviz by typing: rviz
+https://docs.m2stud.io/cs/ros_additional/06-L3-rviz/
+
+https://github.com/mavlink/mavros/issues/1346   increase frequency
