@@ -204,3 +204,6 @@ to kill all roscore/master use: killall -9 roscore and killall -9 rosmaster
 
 pi@raspberrypi:  raspberrypi is the device name and it denotes the ip address so in ROS_MASTER_URI=http://device_name:11311 should come
 for ssh to it can be ssh pi@raspberrypi or ssh pi@192.128.1.254 something like that
+
+/mavros/imu/data: angular vel, linear vel, orientation
+/mavros/imu/data_raw:  angular vel, linear vel
