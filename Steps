@@ -194,3 +194,13 @@ or in dir where script is there type $python3 scriptname.py
 mavlink and mavros is in :  /opt/ros/noetic/share
 
 https://docs.px4.io/main/en/peripherals/serial_configuration.html
+
+
+connecting ROSes:
+http://kashishdhal.me/ros-communication-between-different-computers/
+http://wiki.ros.org/ROS/Tutorials/MultipleMachines
+http://wiki.ros.org/ROS/NetworkSetup
+to kill all roscore/master use: killall -9 roscore and killall -9 rosmaster
+
+pi@raspberrypi:  raspberrypi is the device name and it denotes the ip address so in ROS_MASTER_URI=http://device_name:11311 should come
+for ssh to it can be ssh pi@raspberrypi or ssh pi@192.128.1.254 something like that
