@@ -220,3 +220,4 @@ here 31 and 105 are parameters, 5000 is :  5000 gives 200Hz, 10000 give 100Hz   
 mavcmd is in ros             include/lib/
 
 https://www.youtube.com/watch?v=A-1DBhWF_64 follow this tutorial for ROS
+https://docs.px4.io/main/en/advanced_config/prearm_arm_disarm.html
