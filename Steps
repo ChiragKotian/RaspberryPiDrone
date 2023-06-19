@@ -217,7 +217,7 @@ do rosrun mavros mavcmd long 511 105 5000 0 0 0 0     for HIGHRES_IMU i.i /mavro
 
 here 31 and 105 are parameters, 5000 is :  5000 gives 200Hz, 10000 give 100Hz   i.e. time is running in microsecond ranges, 511 is something which helps mavros, long is data type(function) of mavros, and 7 commands after 511 are different parameters
 
-mavcmd is in ros             include/lib/
+mavcmd is in ros             include/lib/  or mavros/scripts/mavcmd
 
 https://www.youtube.com/watch?v=A-1DBhWF_64 follow this tutorial for ROS
 https://docs.px4.io/main/en/advanced_config/prearm_arm_disarm.html
