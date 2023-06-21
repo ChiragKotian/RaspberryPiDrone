@@ -231,6 +231,7 @@ os.system("rosrun my_package_name my_node_script.py")
 
 first.py-> changes mode to offboard and arms vehicle
 second.py-> increases data rate of imu
+custom ros messages: https://www.youtube.com/watch?v=8paLh2kklJo
 
 
 code to increase imu datarate to max,change vehicle mode and arm vehicle:
