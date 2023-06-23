@@ -198,6 +198,7 @@ https://docs.px4.io/main/en/peripherals/serial_configuration.html
 
 connecting ROSes:
 http://kashishdhal.me/ros-communication-between-different-computers/
+https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/
 http://wiki.ros.org/ROS/Tutorials/MultipleMachines
 http://wiki.ros.org/ROS/NetworkSetup
 to kill all roscore/master use: killall -9 roscore and killall -9 rosmaster
