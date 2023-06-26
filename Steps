@@ -778,6 +778,19 @@ def state_cb(msg):
     current_state = msg
 
 def channels_callback(data):
+    Channels[0]=data.channel1
+    Channels[1]=data.channel2
+    Channels[2]=data.channel3
+    Channels[3]=data.channel4
+    Channels[4]=data.channel5
+    Channels[5]=data.channel6
+    Channels[6]=data.channel7
+    Channels[7]=data.channel8
+
+
+
+
+def quad_states(data):
     quad_state[0]=data.quad_x
     quad_state[1]=data.quad_y
     quad_state[2]=data.quad_z
@@ -793,19 +806,6 @@ def channels_callback(data):
     quad_state[12]=data.quad_x_dot_dot
     quad_state[13]=data.quad_y_dot_dot
     quad_state[14]=data.quad_z_dot_dot
-
-
-
-def quad_states(data):
-    Channels[0]=data.channel1
-    Channels[1]=data.channel2
-    Channels[2]=data.channel3
-    Channels[3]=data.channel4
-    Channels[4]=data.channel5
-    Channels[5]=data.channel6
-    Channels[6]=data.channel7
-    Channels[7]=data.channel8
-
 
 
 if __name__ == "__main__":
