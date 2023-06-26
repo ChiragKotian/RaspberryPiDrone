@@ -790,7 +790,7 @@ def channels_callback(data):
 
 
 
-def quad_states(data):
+def quad_states_callback(data):
     quad_state[0]=data.quad_x
     quad_state[1]=data.quad_y
     quad_state[2]=data.quad_z
@@ -864,9 +864,6 @@ if __name__ == "__main__":
         #                 rospy.loginfo(raspmode + " enabled" + " armed " + str(current_state.armed))
         #             else:  
         #                 rospy.loginfo("unable to set " + raspmode +" and armed " + str(current_state.armed)+ "Retrying")
-        
-            
-            channels_callback
         # if(not current_state.armed and ((rospy.Time.now() - last_req_arm) > rospy.Duration(5.0))):
         #     last_req_arm = rospy.Time.now()
         #     if(arming_client.call(arm_cmd).success == True):
@@ -877,7 +874,7 @@ if __name__ == "__main__":
             rospy.loginfo("Ready to fly")
             # local_pos_pub.publish(desired_pose)
             rospy.Subscriber("/quad/human_inputs", human_inputs, channels_callback)
-            rospy.Subscriber("/quad/quad_states", quad_states, quad_states)
+            rospy.Subscriber("/quad/quad_states", quad_states, quad_states_callback)
             rospy.loginfo(Channels)
             rospy.loginfo(quad_state)
             rate.sleep()
@@ -886,4 +883,5 @@ if __name__ == "__main__":
         
         
         rate.sleep()
+
 
