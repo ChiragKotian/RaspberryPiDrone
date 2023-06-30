@@ -202,6 +202,7 @@ https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/
 http://wiki.ros.org/ROS/Tutorials/MultipleMachines
 http://wiki.ros.org/ROS/NetworkSetup
 to kill all roscore/master use: killall -9 roscore and killall -9 rosmaster
+do ros master uri and ros hostname in both the devices!!!
 
 pi@raspberrypi:  raspberrypi is the device name and it denotes the ip address so in ROS_MASTER_URI=http://device_name:11311 should come
 for ssh to it can be ssh pi@raspberrypi or ssh pi@192.128.1.254 something like that
