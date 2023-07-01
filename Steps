@@ -216,6 +216,8 @@ https://docs.m2stud.io/cs/ros_additional/06-L3-rviz/
 shutdown raspberry by switch:
 https://learn.sparkfun.com/tutorials/raspberry-pi-safe-reboot-and-shutdown-button/all
 https://pypi.org/project/RPi.GPIO/
+https://cms.gutow.uwosh.edu/Gutow/useful-chemistry-links/software-tools-and-coding/computer-and-coding-how-tos/allowing-access-to-gpio-i2c-and-spi-on-pi-under-ubuntu-20.04
+https://ubuntu.com/tutorials/gpio-on-raspberry-pi#1-overview
 
 https://github.com/mavlink/mavros/issues/1346   
 https://github.com/mavlink/mavros/issues/1557 increase frequency of messages
