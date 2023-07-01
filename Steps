@@ -213,6 +213,9 @@ for ssh to it can be ssh pi@raspberrypi or ssh pi@192.128.1.254 something like t
 start rviz by typing: rviz
 https://docs.m2stud.io/cs/ros_additional/06-L3-rviz/
 
+shutdown raspberry by switch:
+https://learn.sparkfun.com/tutorials/raspberry-pi-safe-reboot-and-shutdown-button/all
+
 https://github.com/mavlink/mavros/issues/1346   
 https://github.com/mavlink/mavros/issues/1557 increase frequency of messages
 --find the original link of solution
