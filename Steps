@@ -197,6 +197,8 @@ https://docs.px4.io/main/en/peripherals/serial_configuration.html
 
 
 connecting ROSes:
+export ROS_MASTER_URI=http://(rosmaster_ip):11311
+export ROS_IP=(current_device_ip)
 http://kashishdhal.me/ros-communication-between-different-computers/
 https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/
 http://wiki.ros.org/ROS/Tutorials/MultipleMachines
