@@ -238,6 +238,9 @@ https://docs.px4.io/main/en/advanced_config/prearm_arm_disarm.html
 https://docs.px4.io/main/en/flight_modes/offboard.html
 https://answers.ros.org/question/233353/set-delay-between-starting-nodes-within-launch-file/
 
+some services:
+https://clover.coex.tech/en/simple_offboard.html
+
 only one node per script, run multiple scripts by putting this at top of your script:
 import os 
 os.system("rosrun my_package_name my_node_script.py")
