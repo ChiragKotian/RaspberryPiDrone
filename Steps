@@ -193,6 +193,7 @@ or in dir where script is there type $python3 scriptname.py
 
 mavlink and mavros is in :  /opt/ros/noetic/share
 
+px4 does not support cube orange plus yet
 https://docs.px4.io/main/en/peripherals/serial_configuration.html
 
 
