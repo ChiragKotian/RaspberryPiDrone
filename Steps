@@ -208,6 +208,7 @@ to kill all roscore/master use: killall -9 roscore and killall -9 rosmaster
 do ros master uri and ros hostname in both the devices!!!
 
 https://github.com/PX4/PX4-Autopilot/blob/main/integrationtests/python_src/px4_it/mavros/mavros_offboard_attctl_test.py
+https://github.com/mavlink/mavros/issues/792
 
 pi@raspberrypi:  raspberrypi is the device name and it denotes the ip address so in ROS_MASTER_URI=http://device_name:11311 should come
 for ssh to it can be ssh pi@raspberrypi or ssh pi@192.128.1.254 something like that
