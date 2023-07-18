@@ -9,8 +9,9 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
 
    Here, we will try to give you some notes we made from the tutorial.
 
-1.**To _Open_ a file for editing**: ```vim "file_name"``` (_Enter your file name in place of "file_name" on terminal_) (**_If there is no file of the provided name in current directory, then a 'NEW' file will be created_**)
-2.**To _Save_ and _Exit_**: ```:wq```
+    1.**To _Open_ a file for editing**: ```vim "file_name"``` (_Enter your file name in place of "file_name" on terminal_) (**_If there is no file of the provided name in current directory, then a 'NEW' file will be created_**)
+
+    2.**To _Save_ and _Exit_**: ```:wq```
 
    Once in Vim editor, you first press some keys to enter a mode and then to the changes to the text based on the mode you are in.
   
