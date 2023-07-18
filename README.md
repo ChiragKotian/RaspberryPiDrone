@@ -6,5 +6,5 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
    You can use ```$ vimtutor``` to start an inbuilt tutorial, which is pretty detailed and comprehensive. _(See bottom of terminal to know the mode you are in)_.
    Here, we will try to give you some notes we made from the tutorial. 
   
-2. **Tmux(Multiwindow terminal with facilitates easy switching and other functions)**
+3. **Tmux(Multiwindow terminal with facilitates easy switching and other functions)**
 
