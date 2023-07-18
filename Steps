@@ -167,7 +167,7 @@ only one node per script, run multiple scripts by putting this at top of your sc
 import os 
 os.system("rosrun my_package_name my_node_script.py")
 
-
+///
 0: HEARTBEAT
 1: SYS_STATUS
 2: SYSTEM_TIME
@@ -273,5 +273,5 @@ os.system("rosrun my_package_name my_node_script.py")
 127: GPS_RTK
 128: GPS2_RTK
 129: SCALED
-
+///
 
