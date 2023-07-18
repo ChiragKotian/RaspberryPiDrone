@@ -1,4 +1,4 @@
-*In this file I have mentioned the various steps (from basics for this project)
+In this file I have mentioned the various steps (from basics for this project)
 
 1. Install ubuntu server 20.04.5 LTS on raspberry pi using raspberry pi imager.
 2. Connect raspberry pi to your local network with internet connection (https://linuxconfig.org/ubuntu-20-04-connect-to-wifi-from-command-line)
@@ -57,7 +57,7 @@ sessions runs in background unless closed or system reboot
 
 Vim:
 
-use $ vimtutor    to get basic commands
+///use $ vimtutor    to get basic commands
 (see bottom to know the mode you are in)
 h(left) j(down) k(up) l(right) or use arrow keys to navigate
 :q!  exit without saving
@@ -72,9 +72,9 @@ type d$ at the start of character from which you wish to delete everything (trai
 d<-operator w/$/e<-motion(tells what to operate on) : w- until start of next word excluding its first character, e- end of current word including last character, $ to the end of line including the last character,d whole line
 typing a number before motion repeats it that many times (d2w delete two two words,2w move two words forward, 3e move 3words forward but at last letter of 3rd word, 0 to get to start of word)
 dd delets the whole line
-u to undo last command, U to bring whole line to original form
+u to undo last command, U to bring whole line to original form 
 ctrl+R to undo the undo's
-to put back text that has just been deleted, type p. this puts the deleted text after the cursor(if a line was deleted (dd)(only one line in vim register)it will go on the line below the cursor)
+to put back text that has just been deleted, type p , this puts the deleted text after the cursor(if a line was deleted (dd)(only one line in vim register)it will go on the line below the cursor)
 to replace the character under the cursor, type r and then the character you want to have there
 the change operator allows you to change from the cursor to where the motion takes you. eg. type ce to change from the cursor to the end of the word, c$ to change to the end of a line
 the format for change is: c [number] motion 
@@ -82,7 +82,7 @@ ctrl+G shows current file location and it's status
 G moves to end of file, gg moves to first line, [line number]+G to move to that line
 to find phrases: / followed by phrase searches forward for the phrase ? followed by phrase searches backward, n to find next occurrence in same directionand N prev occurrence, 
 ctrl+O takes to older position of yours in file and crtl+I newer
-typing % while the cursor is on a (,);[,];{,} goes to it's macth used for debugging missing brackets
+typing % while the cursor is on a (,);[,];{,} goes to it's macth used for debugging missing brackets///
 substitute:  new in place of first old in the line:  :s/old/new , new for all old in the line:  :s/old/new/g , new in place of old between two lines for no. # and # #,#s/old/new/g , new in place of old in whole file :%s/old/new/g  to ask for confirmation while doing this :%s/old/new/gc
 for running external commands:  : !command   eg. : !ls  lists files in current directory
 :w file_name writes the current Vim file to disk with name file_name
