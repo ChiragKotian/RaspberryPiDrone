@@ -60,8 +60,17 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
         1. _Search forward_: ```/ + "phrase"```
         2. _Search backward_: ```? + "phrase"```
         3. _Occurrence in the same direction_:
-               1. _Next_: ```n```
-               2. _Previous_: ```N```
+           
+           1. _Next_: ```n```
+           2. _Previous_: ```N```
+
+    18. **Go to a _Position of Yours_**:
+        
+        _Older_: ```ctrl + O```
+        _Newer_: ```ctrl + I```
+
+    19. **Debug missing brackets ( (,);[,];{,} )**: ```%``` (_While cursor on one of it takes you to it's match_)
+    20. 
          
 
 3. **Tmux(Multiwindow terminal with facilitates easy switching and other functions)**
