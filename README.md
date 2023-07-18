@@ -23,8 +23,14 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
       7. **To _Delete one word_**: Go to the start of the word and type ```dw```
       8. **To _Delete all the trailing characters after a character including the character_**: Go to the start of character and type ```d$```
       9. **Vim functions have _Operators_ and _Motions_, like**:
-          _d_ <- _Operator_  (Tells the operation to be carried out)
-          _w/$/e_ <- _Motion_ (Tells what to operate on)
+          
+         1. ```d``` <- _Operator_  (Tells the operation to be carried out)
+         
+         2. ``w/$/e`` <- _Motion_ (Tells what to operate on)
+        
+             1. _w_ <-  _Until the start of next word, excluding its first character_
+
+             2. _$_ <- 
 
 3. **Tmux(Multiwindow terminal with facilitates easy switching and other functions)**
 
