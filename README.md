@@ -66,8 +66,8 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
 
     18. **Go to a _Position of Yours_**:
         
-        _Older_: ```ctrl + O```
-        _Newer_: ```ctrl + I```
+        1. _Older_: ```ctrl + O```
+        2. _Newer_: ```ctrl + I```
 
     19. **Debug missing brackets ( (,);[,];{,} )**: ```%``` (_While cursor on one of it takes you to it's match_)
     20. 
