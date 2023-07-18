@@ -22,11 +22,11 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
       6. **_Append_ text mode**(_Inserts text ahead of the current position of cursor_): ```a```
       7. **To _Delete one word_**: Go to the start of the word and type ```dw```
       8. **To _Delete all the trailing characters after a character including the character_**: Go to the start of character and type ```d$```
-      9. **Vim functions have _Operators_, _Numbers_ and _Motions_, like**:
+      9. **Vim functions have _Operators_, _Count_ and _Motions_, like**:
           
          1. ```d``` <- _Operator_  (Tells the operation to be carried out, in this case delete)
   
-         2. ```2/3/4...``` <- _Number_ (Tells how many times to repeat an operation)_(Without number a operation is carried out once)_
+         2. ```2/3/4...``` <- _Count_ (Tells how many times to repeat an operation)_(Without count a operation is carried out once)_
             
          3. ```w/$/e/d``` <- _Motion_ (Tells what to operate on)
         
@@ -46,7 +46,22 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
          2. Bring _whole line_ to original form: ```U```
                     
    11. **To _Undo the Undo_**: ```ctrl + R ```
-           
+   12. **To _Put Back_ text that has just been deleted**: ```p``` _(This puts the deleted text after the cursor, if a line was deleted(```dd```)(Only one line is stored in Vim register), it will go on the line below the cursor)_
+   13. **To _Replace_ the character under the cursor**: ```r``` and _then type the character you want to replace it with_
+   14. **_Change_ operator**: ```c``` (Change deletes a piece of text based on motion and then sends you into Insert mode so that you can continue typing, changing the original text into something else)
+   15. **Show current _File Location_ and it's _Status_**: ``` ctrl + G```
+   16. **Move**:
+       
+        1. _End of file_: ```G```
+        2. _To first line_: ```gg```
+        3. _To specified line_: ``` "line number" + G```
+
+    17. **Find _Phrases_**:
+        1. _Search forward_: ```/ + "phrase"```
+        2. _Search backward_: ```? + "phrase"```
+        3. _Occurrence in the same direction_:
+               1. _Next_: ```n```
+               2. _Previous_: ```N```
          
 
 3. **Tmux(Multiwindow terminal with facilitates easy switching and other functions)**
