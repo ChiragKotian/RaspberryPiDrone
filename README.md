@@ -42,8 +42,8 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
          
    10. **To _Undo_**:
          
-                 1. _Last command_: ```u```
-                 2. Bring _whole line_ to original form: ```U```
+         1. _Last command_: ```u```
+         2. Bring _whole line_ to original form: ```U```
                     
    11. **To _Undo the Undo_**: ```ctrl + R ```
            
