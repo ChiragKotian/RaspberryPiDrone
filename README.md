@@ -39,11 +39,13 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
              4. ```d``` <-  _Entire line_ (Example: ```dd``` deletes the whole line)
            
          Examples: ```d2w``` _deletes_ two words, ```2w``` _moves_ two words forward, ```3e``` _moves_ three words forward but at the last letter of the third word, ```0``` gets you to the _start_ of the word
-        10. **To _Undo_**:
          
-         1. _Last command_: ```u```
-         2. Bring _whole line_ to original form: ```U```
-        11. **To _Undo the Undo_**: ```ctrl + R ```
+           10. **To _Undo_**:
+         
+                 1. _Last command_: ```u```
+                 2. Bring _whole line_ to original form: ```U```
+                    
+            11. **To _Undo the Undo_**: ```ctrl + R ```
            
          
 
