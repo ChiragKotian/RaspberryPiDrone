@@ -114,11 +114,32 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
           _(To close help window, ```:q```)_
 
       33. **_Jump_ to _another window_**: ```ctrl + W```
-      34. **_Autocompletion_**: When typing a ```:'command'```, prss ```ctrl + D``` to see _possible completions_ and press ```Tab``` to use _one_ completion
+      34. **_Autocompletion_**: When typing a ```:'command'```, press ```ctrl + D``` to see _possible completions_ and press ```Tab``` to use _one_ completion
 
-    _**You can create Vimrc startup script to keep your preferred settings**_
+    _**You can create a Vimrc startup script to keep your preferred settings**_
 
-3. **Tmux(Multiwindow terminal with facilitates easy switching and other functions)**
+3. **Tmux(Multiwindow terminal which facilitates easy switching and other functions)**:
+
+    Here, we will try to give you _some notes_ on **Tmux** to get you started.
+
+   The _hierarchy of windows_ in Tmux goes like: _```Session>Windows>Panes```_
+
+   1. **Start a _new session_**: ```tmux``` _(On terminal)_
+   2. **New Pane**: _(You can make as many as you want)_
+      
+      1. _To the right_: ```ctrl + b``` and then ```%(shift + 5) ```
+      2. _To the bottom_: ```ctrl + b``` and then ```"(shift + ') ```
+
+   3. **Switch Panes**: ```ctrl + b``` and then ```left/right arrow```
+   4. **New window**: ```ctrl + b``` and then ```c```
+   5. **Change windows**: ```ctrl + b``` and then ```0/1/2...``` _(As on the green banner below)_
+   6. **Rename Window**: ```ctrl + b``` and then ```,```; then type name_(see yellow box below)_ and hit ```Enter```
+   7. **Detach from a session**: ```ctrl + b``` and then ```d```
+  
+      _If using ssh then no need to worry you can continue from where you left_
+
+   8. **View running tmux sessions**: ```tmux ls``` _(In terminal)_
+   9. **Attach to the session**: ```tmux attach-session -t "name_of_session"```
 
 ## MAVROS COMMANDS (MAVCMD):
 1. **PARAMETERS**:
