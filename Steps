@@ -94,14 +94,14 @@ a,i,A all go to the same insert mode
 type o to open a line below O to open a line above cursor and enter insert mode
 type a to insert text after the cursor and A to insert text after the end of the line
 e command moves to the end of a word
-type capital R to start replacing characters untill esc pressed
+type capital R to start replacing characters until esc pressed
 copy paste text: enter visual mode, select text, press y(yank) to copy, press p to paste, yw to copy one word
 typing  :set xxx sets the option xxx. some options are ic/ignorecase  ignores upper/lower case when searching ; is/incsearch shoes partial matches ; hls/hlssearch highlights matches
 if want to ignore case for just one search command, use \c i.e. /ignore\c
 prepend no to switch an option off:  :set noic
 type :help or press F1 or HELP to open a help window; type :help cmd to find help on cmd; type ctrl-W ctrl-W to jump to another window; :q to close the help window
 can create vimrc startup script to keep your preferred settings
-when typing a : command, press CTRL-D to see possible completions ; press tab to use one completion
+when typing a : command, press CTRL-D to see possible completions ; press tab to use one completion///
 
 https://docs.px4.io/main/en/ros/mavros_offboard_python.html
 
