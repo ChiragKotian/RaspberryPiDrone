@@ -70,8 +70,15 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
         2. _Newer_: ```ctrl + I```
 
     19. **Debug missing brackets ( (,);[,];{,} )**: ```%``` (_While cursor on one of it takes you to it's match_)
-    20. 
-         
+    20. **To _Substitue_**:
+  
+        1. _**First occurrence** of String with new String_: ```:s/"old_string"/"new_string"/```
+        2. _**All occurrences** of String in **current line** with new String_: ```:s/"old_string"/"new_string"/g```
+        3. _**All occurrences** of String in **current file** with new String_: ```:%s/"old_string"/"new_string"/g``` _(To ask for confirmation while doing this, replace 'g' with 'gc')_
+        4. _**All occurrences** of String **Between line no. 'x' and 'y'** with new String_: ```:'x','y's/"old_string"/"new_string"/g```
+           
+     21.  **To _Run external commands_**: ```: !command``` _(Example- ```: !ls```  lists files in the current directory)_
+           
 
 3. **Tmux(Multiwindow terminal with facilitates easy switching and other functions)**
 
