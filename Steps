@@ -34,7 +34,7 @@ https://github.com/tmux/tmux
 https://ctu-mrs.github.io/docs/introduction/suggested_reading.html
 https://github.com/tmuxinator/tmuxinator
 tmux:
-here and means leave prev keys
+///here and means leave prev keys
 new session start: tmux
 hierarchy:  session>>windows>>panes
 new pane:
@@ -53,7 +53,7 @@ attach to the session: tmux attach -t name_of_session_eg_0
 rename session: tmux rename-session -t current_name_of_session name_you_want
 new session with name: tmux new -s name_you_want
 kill session: tmux kill-session -t name_of_session
-sessions runs in background unless closed or system reboot 
+sessions runs in background unless closed or system reboot ///
 
 Vim:
 
