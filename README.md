@@ -118,7 +118,7 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
 
     _**You can create a Vimrc startup script to keep your preferred settings**_
 
-3. **Tmux(Multiwindow terminal which facilitates easy switching and other functions)**:
+2. **Tmux(Multiwindow terminal which facilitates easy switching and other functions)**:
 
     Here, we will try to give you _some notes_ on **Tmux** to get you started.
 
