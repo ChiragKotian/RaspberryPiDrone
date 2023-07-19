@@ -100,7 +100,23 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
 
       25. **_Move_ to the _end_ of a word**: ```e```
       26. **_Replace_ until _interrupt_**: ```R``` _(Starts replacing)_, **'esc'** _(Exit this mode(Interrupt))_
-      27. 
+      27. **Copy, Paste and Text**: Enter Visual Mode -> Select text -> ```y```(Yank) to copy (```yw``` to copy one word) -> ```p``` to paste
+      28. **_Set option_ 'xyz'**: ```:set 'xyz' ```
+  
+          _Some options are ```ic``` or ```ignorecase```  which ignores upper/lower case when searching; ```is``` or ```incsearch``` shows partial matches ; ```hls``` or ```hlssearch``` highlights matches
+          
+      29. **_Ignore case_ for just _one_ search command**: Use ```\c``` i.e. ```/ignore\c```
+      30. **_Switch_ an option _OFF_**: Prepend 'no' _(Example: ```:set noic```)_
+      31. **To open a _help_ window**: ```:help``` or press ```F1``` or ```HELP```
+
+          _(To find help on commands, ```:help cmd```)_
+
+          _(To close help window, ```:q```)_
+
+      33. **_Jump_ to _another window_**: ```ctrl + W```
+      34. **_Autocompletion_**: When typing a ```:'command'```, prss ```ctrl + D``` to see _possible completions_ and press ```Tab``` to use _one_ completion
+
+    _**You can create Vimrc startup script to keep your preferred settings**_
 
 3. **Tmux(Multiwindow terminal with facilitates easy switching and other functions)**
 
