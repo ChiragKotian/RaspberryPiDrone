@@ -18,11 +18,14 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
       2. **To exit without savin**g: ```:q!```
       3. **To delete text**: ```x```
       4. **Enter _Normal_ mode**: 'esc' key
-      5. **_Insert_ text mode**(_Inserts text behind the current position of cursor_): ```i```
-      6. **_Append_ text mode**(_Inserts text ahead of the current position of cursor_): ```a```
-      7. **To _Delete one word_**: Go to the start of the word and type ```dw```
-      8. **To _Delete all the trailing characters after a character including the character_**: Go to the start of character and type ```d$```
-      9. **Vim functions have _Operators_, _Count_ and _Motions_, like**:
+      5. **_Insert/Append_ text mode**:
+         1. _Insert text behind the current position of cursor_: ```i```
+         2. _Insert text ahead of the current position of cursor_: ```a```
+         3. _Insert text at the end of current line_): ```A```
+   
+      6. **To _Delete one word_**: Go to the start of the word and type ```dw```
+      7. **To _Delete all the trailing characters after a character including the character_**: Go to the start of character and type ```d$```
+      8. **Vim functions have _Operators_, _Count_ and _Motions_, like**:
           
          1. ```d``` <- _Operator_  (Tells the operation to be carried out, in this case delete)
   
@@ -40,23 +43,23 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
            
          Examples: ```d2w``` _deletes_ two words, ```2w``` _moves_ two words forward, ```3e``` _moves_ three words forward but at the last letter of the third word, ```0``` gets you to the _start_ of the word
          
-   10. **To _Undo_**:
+   9. **To _Undo_**:
          
          1. _Last command_: ```u```
          2. Bring _whole line_ to original form: ```U```
                     
-   11. **To _Undo the Undo_**: ```ctrl + R ```
-   12. **To _Put Back_ text that has just been deleted**: ```p``` _(This puts the deleted text after the cursor, if a line was deleted(```dd```)(Only one line is stored in Vim register), it will go on the line below the cursor)_
-   13. **To _Replace_ the character under the cursor**: ```r``` and _then type the character you want to replace it with_
-   14. **_Change_ operator**: ```c``` (Change deletes a piece of text based on motion and then sends you into Insert mode so that you can continue typing, changing the original text into something else)
-   15. **Show current _File Location_ and it's _Status_**: ``` ctrl + G```
-   16. **Move**:
+   10. **To _Undo the Undo_**: ```ctrl + R ```
+   11. **To _Put Back_ text that has just been deleted**: ```p``` _(This puts the deleted text after the cursor, if a line was deleted(```dd```)(Only one line is stored in Vim register), it will go on the line below the cursor)_
+   12. **To _Replace_ the character under the cursor**: ```r``` and _then type the character you want to replace it with_
+   13. **_Change_ operator**: ```c``` (Change deletes a piece of text based on motion and then sends you into Insert mode so that you can continue typing, changing the original text into something else)
+   14. **Show current _File Location_ and it's _Status_**: ``` ctrl + G```
+   15. **Move**:
        
         1. _End of file_: ```G```
         2. _To first line_: ```gg```
         3. _To specified line_: ``` "line number" + G```
 
-    17. **Find _Phrases_**:
+    16. **Find _Phrases_**:
         1. _Search forward_: ```/ + "phrase"```
         2. _Search backward_: ```? + "phrase"```
         3. _Occurrence in the same direction_:
@@ -64,21 +67,40 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
            1. _Next_: ```n```
            2. _Previous_: ```N```
 
-    18. **Go to a _Position of Yours_**:
+    17. **Go to a _Position of Yours_**:
         
         1. _Older_: ```ctrl + O```
         2. _Newer_: ```ctrl + I```
 
-    19. **Debug missing brackets ( (,);[,];{,} )**: ```%``` (_While cursor on one of it takes you to it's match_)
-    20. **To _Substitue_**:
+    18. **Debug missing brackets ( (,);[,];{,} )**: ```%``` (_While cursor on one of it takes you to it's match_)
+    19. **To _Substitue_**:
   
         1. _**First occurrence** of String with new String_: ```:s/"old_string"/"new_string"/```
         2. _**All occurrences** of String in **current line** with new String_: ```:s/"old_string"/"new_string"/g```
         3. _**All occurrences** of String in **current file** with new String_: ```:%s/"old_string"/"new_string"/g``` _(To ask for confirmation while doing this, replace 'g' with 'gc')_
         4. _**All occurrences** of String **Between line no. 'x' and 'y'** with new String_: ```:'x','y's/"old_string"/"new_string"/g```
            
-     21.  **To _Run external commands_**: ```: !command``` _(Example- ```: !ls```  lists files in the current directory)_
-           
+     20. **To _Run external commands_**: ```: !"command"``` _(Example- ```: !ls```  lists files in the current directory)_
+     21. **To _write_ current Vim file to disk with _"file_name"_**: ```:w "file_name"```
+     22. **Enter _Selection(Visual)_ mode**:
+
+         1. _Character_:```v```
+         2. _Line_: ```V```
+         3. _Block_: ```ctrl + v```
+
+         _Usage_: Enter required selection mode -> Select the required text using cursor -> then use operators like: ```:w, d, etc.```
+      23. **Retrieve text**: ```:r```
+         
+          _(Example: ```:r "file_name"``` retrieves disk file file_name and puts it below the current position, you can also use external commands in place of file_name like ```:r !ls``` which puts that command's output below the current cursor position)_
+
+      24. **To _open a line_ and enter _insert_ mode**:
+
+          1. _Below cursor_: ```o```
+          2. _Above cursor_: ```O```
+
+      25. **_Move_ to the _end_ of a word**: ```e```
+      26. **_Replace_ until _interrupt_**: ```R``` _(Starts replacing)_, **'esc'** _(Exit this mode(Interrupt))_
+      27. 
 
 3. **Tmux(Multiwindow terminal with facilitates easy switching and other functions)**
 
