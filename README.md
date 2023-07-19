@@ -140,6 +140,11 @@ In this project we integrated Raspberry Pi and ROS with drone to explore various
 
    8. **View running tmux sessions**: ```tmux ls``` _(In terminal)_
    9. **Attach to the session**: ```tmux attach-session -t "name_of_session"```
+   10. **Rename current session**: ```tmux rename-session -t "current_name_of_session" "name_you_want"```
+   11. **Create a new session with "name_you_want"**: ```tmux new -s name_you_want```
+   12. **Kill session**: ```tmux kill-session -t name_of_session```
+
+   ***A session runs in background unless closed or system reboots***
 
 ## MAVROS COMMANDS (MAVCMD):
 1. **PARAMETERS**:
