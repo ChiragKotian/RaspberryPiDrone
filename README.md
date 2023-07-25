@@ -23,7 +23,7 @@ In this project, we created an open-source, _ROS_-based **'Drone Package'** whic
 
 ## Credits:
 
-_This project was done under HCR lab, IIT Gn by  [@ChiragKotian](https://www.github.com/ChiragKotian), [@pratikiitgn](https://www.github.com/pratikiitgn) and @smitm06_
+_This project was done under HCR lab, IIT Gn by  [@ChiragKotian](https://www.github.com/ChiragKotian), [@pratikiitgn](https://www.github.com/pratikiitgn) and [@Smitm06](https://github.com/Smitm06)_
 
 ![Screenshot 2023-07-25 141242](https://github.com/ChiragKotian/RaspberryPiDrone/assets/117931123/995befbf-10f0-44c8-8197-c9aec5ead124)
 
