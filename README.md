@@ -1,7 +1,7 @@
 # Drones and ROS
 ![Screenshot 2023-07-25 141054](https://github.com/ChiragKotian/RaspberryPiDrone/assets/117931123/e7c342e8-cf61-47a6-b984-e710e37a78e5)
 ## Introduction:
-In this project, we created an open-source, _ROS_-based **'Drone Package'** which can support _multiple drone systems_ with an _anti-collision_ system, does the _real-time simulation_ of drones in Gazeebo, can _transfer all the computation work_ to ground computers, and there is a possibility to _increase range_ of the system substantially using _mobile networks_.
+In this project, we created an open-source, _ROS_-based **'Drone Package'** which can support _multiple drone systems_ with an _anti-collision_ system, does the _real-time simulation_ of drones in Gazeebo, can _transfer all the computation work_ to ground computers, and there is a possibility of this system working in _long-range applications_ using _mobile networks_.
 
 ## Overview:
 
