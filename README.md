@@ -27,6 +27,6 @@ _This project was done under HCR lab, IIT Gn by  [@ChiragKotian](https://www.git
 
 ![Screenshot 2023-07-25 141242](https://github.com/ChiragKotian/RaspberryPiDrone/assets/117931123/995befbf-10f0-44c8-8197-c9aec5ead124)
 
-# You can find complete details of it in [_Website to be released shortly_](https://chiragkotian.github.io).
+# You can find complete details of this project in [_Website to be released shortly_](https://chiragkotian.github.io).
 
 
